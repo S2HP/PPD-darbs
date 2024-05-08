@@ -9,22 +9,22 @@ def index_page():
 
 @app.route('/information')
 def information():
-    return render_template('information.html')
+    return render_template("information.html")
 
 @app.route('/videodetail')
 def videodetail():
-    return render_template('video-detail.html')
+    return render_template("video-detail.html")
 
 @app.route('/photodetail')
 def photodetail():
-    return render_template('photo-detail.html')
+    return render_template("photo-detail.html")
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    return render_template("about.html")
 
-@app.route('/contact.html')
+@app.route('/contact')
 def contact():
-    return render_template('contact.html')
+    return render_template("contact.html")
 
 app.run(host='0.0.0.0', port=81)

@@ -1,2 +1,0 @@
-izveidot "sākuma lapu".
-uzrakstīt katrai lapai informāciju. 
