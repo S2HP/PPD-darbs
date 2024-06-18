@@ -618,3 +618,7 @@ select:not([multiple]) {
 
     .tm-social-links li { margin-right: 3px; }
 }
+
+.img-fluid img{
+    object-fit: cover;
+  }
