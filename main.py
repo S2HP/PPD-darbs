@@ -15,9 +15,9 @@ def information():
 def videodetail():
     return render_template("video-detail.html")
 
-@app.route('/photodetail')
-def photodetail():
-    return render_template("photo-detail.html")
+@app.route('/photodetail/<picid>')
+def photodetail(picid):
+    return render_template("photo-detail.html",picid=picid)
 
 @app.route('/about')
 def about():
